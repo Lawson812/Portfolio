@@ -1,0 +1,78 @@
+@font-face {
+    font-family: architex;
+    src: url(../fonts/Architex.ttf);
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: coral;
+}
+header{
+    text-align: center;
+    font-family: architex;
+    font-size: 40px;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    background-image:url(../images/background.jpg);
+    background-blend-mode: overlay;
+    background-color: floralwhite;
+}
+ul {
+    
+    list-style-type: none;
+    margin-top: inherit;
+    padding: 0;
+    font-family: architex;
+    border-style: solid;
+    background-color:floralwhite;
+    position:inherit;
+    background-image:url(../images/background.jpg);
+    background-blend-mode: overlay;
+    
+    
+}
+ul li {
+    
+    display: inline;
+    float: center;
+    padding-left: 250px;
+    font-size: 26px;      
+}
+.quote{
+    border-style: solid;
+    text-align: center;
+    border-width: thin;
+    background-color: whitesmoke;
+    display:inline-block;
+    margin-left: 320px;
+    font-family:architex;
+    font-size: 24px;
+}
+body {
+    background-color: rgba(253,235,151,.5);
+    background-image: url(../images/backgroundpattern.jpg);
+}
+ol li{
+    text-align:inherit;
+   
+}
+p {
+    display: inline-block;
+    background-color:floralwhite;
+    opacity: .9;
+    border-radius: 10px;
+    word-wrap: normal;
+    font-family:Helvetica;
+    
+}
+.list {
+    border-color:black;
+    border-width:medium;
+    background-color:aliceblue;
+    display:inline-block;
+    margin-top: 100px;
+}

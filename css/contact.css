@@ -1,0 +1,72 @@
+@font-face {
+    font-family: architex;
+    src: url(../fonts/Architex.ttf);
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: coral;
+}
+header{
+    text-align: center;
+    font-family: architex;
+    font-size: 40px;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    background-image:url(../images/background.jpg);
+    background-blend-mode: overlay;
+    background-color: floralwhite;
+    opacity: 0.7; 
+
+}
+body {
+    background-color: rgba(192,160,124,.5);
+    background-image: url(../images/backgroundpattern.jpg);
+}
+ul {
+    
+    list-style-type: none;
+    margin-top: inherit;
+    padding: 0;
+    font-family: architex;
+    border-style: solid;
+    background-color:floralwhite;
+    position:inherit;
+    background-image:url(../images/background.jpg);
+    background-blend-mode: overlay;
+    opacity: 0.7; 
+    
+    
+}
+ul li {
+    
+    display: inline;
+    float: center;
+    padding-left: 250px;
+    font-size: 26px;      
+}
+.mailForm{
+    padding-top: 200px;
+    margin-left: 477px;
+    
+}
+
+button{
+    object-position: bottom;
+    background-color:darksalmon;
+    border-style:solid;
+    border-color:dimgray;
+    font-family:architex;
+    font-size:16px;
+    font-weight: 400;
+}
+textarea{
+    background-image: url(../images/paper.png);
+    border-style:double;
+    border-color:chartreuse;
+    border-width: medium;
+}
