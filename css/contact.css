@@ -9,6 +9,7 @@ a:link {
 a:hover{
     text-decoration: underline;
     text-decoration-color: coral;
+    background-color:hotpink;
 }
 header{
     text-align: center;
@@ -20,7 +21,7 @@ header{
     background-image:url(../images/background.jpg);
     background-blend-mode: overlay;
     background-color: floralwhite;
-    opacity: 0.7; 
+    opacity: 0.8; 
 
 }
 body {
@@ -38,7 +39,7 @@ ul {
     position:inherit;
     background-image:url(../images/background.jpg);
     background-blend-mode: overlay;
-    opacity: 0.7; 
+    opacity: 0.8; 
     
     
 }
@@ -55,8 +56,7 @@ ul li {
     
 }
 
-button{
-    object-position: bottom;
+input[type=submit], button {
     background-color:darksalmon;
     border-style:solid;
     border-color:dimgray;
@@ -69,4 +69,20 @@ textarea{
     border-style:double;
     border-color:chartreuse;
     border-width: medium;
+}
+.boldArea {
+    border-style: solid;
+    border-width: medium;
+    padding-top: 100px;
+    text-align: center;
+    background-color:cornsilk;
+    margin-left: 447px;
+    margin-right: 447px;
+    padding-top: 50px;
+    
+}
+#yourText{
+    text-align: center;
+    background-color: cornsilk;
+    
 }

@@ -9,6 +9,7 @@ a:link {
 a:hover{
     text-decoration: underline;
     text-decoration-color: coral;
+    background-color: hotpink;
 }
 header{
     text-align: center;
@@ -20,6 +21,7 @@ header{
     background-image:url(../images/background.jpg);
     background-blend-mode: overlay;
     background-color: floralwhite;
+    opacity: 0.8;
 }
 ul {
     
@@ -32,6 +34,7 @@ ul {
     position:inherit;
     background-image:url(../images/background.jpg);
     background-blend-mode: overlay;
+    opacity: 0.8;
     
     
 }
